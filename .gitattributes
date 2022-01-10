@@ -1,0 +1,7 @@
+data/MIT-BIH[[:space:]]Record[[:space:]]100[[:space:]](V5)/Record[[:space:]]100[[:space:]](V5).txt filter=lfs diff=lfs merge=lfs -text
+data/MIT-BIH[[:space:]]Record[[:space:]]234[[:space:]](V1)/Record[[:space:]]234[[:space:]](V1).txt filter=lfs diff=lfs merge=lfs -text
+data/NAB[[:space:]]Twitter[[:space:]]vol.[[:space:]]AMZN/Twitter[[:space:]]vol.[[:space:]]AMZN.csv filter=lfs diff=lfs merge=lfs -text
+data/Synthetic[[:space:]]time[[:space:]]series[[:space:]]1/random_0-1000_2^19.txt filter=lfs diff=lfs merge=lfs -text
+data/Synthetic[[:space:]]time[[:space:]]series[[:space:]]2/random_0-1000_2^20.txt filter=lfs diff=lfs merge=lfs -text
+data/Synthetic[[:space:]]time[[:space:]]series[[:space:]]3/random_0-1000_2^22.txt filter=lfs diff=lfs merge=lfs -text
+data/Synthetic[[:space:]]time[[:space:]]series[[:space:]]4/random_0-1000_2^26.txt filter=lfs diff=lfs merge=lfs -text

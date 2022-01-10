@@ -1,0 +1,40 @@
+{
+  "year": "2022",
+  "month": "01",
+  "day": "01",
+  "hours": "00",
+  "minutes": "00",
+  "seconds": "00",
+
+  "minSubwindow": "157",
+  "maxSubwindow": "157",
+
+  "approximationEnabled": false,
+  "partialSearch": true,
+  "dukascopyStockInputData": false,
+
+  "ifApproximationEnabled": {
+    "differenceBetweenSubwindows": "1000",
+    "beta": "128",
+    "startEndDislocationLimit": "1 / 3",
+    "maxPeaksPerPattern": "3",
+    "minPeakWidth": "1000",
+    "pointsDislocationLimit": "1 / 8",
+    "minConf": "2 / 3",
+    "heightAffectsConf": true,
+    "distanceAffectsConf": true,
+    "greedySigmaEnabled": true
+  },
+
+  "ifNotGreedySigmaEnabled": {
+    "knn": "1"
+  },
+
+  "ifPartialSearch": {
+    "storageWindow": "2"
+  },
+
+  "dataPath": "data/MIT-BIH Record 100 (V5)/",
+  "logsPath": "logs/MIT-BIH Record 100 (V5)/",
+  "ratesPath": "rates/MIT-BIH Record 100 (V5)/"
+}
