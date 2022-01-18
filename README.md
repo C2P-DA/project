@@ -1,14 +1,19 @@
 # C2P-DA (Contrasting Consecutive Pattern Discovery Algorithm)
+This Github repository hosts our code and data to reproduce the anomaly detection experiments described in our paper:
+
+A scalable approach to detect contrasting consecutive patterns in time series data. (Redacted for Double-Blind Review)
 
 ## Read before use
-   - Code runs on Windows x64 machines
+   - Our C++17 code runs on Windows x64 machines
    - Both (i) the source code and (ii) an executable compiled with Visual Studio's Release Build are provided in the root folder
    - This README file provides the instructions for the execution and its configuration
 
 ## Instructions
 1) Configure the execution by editing the config.json file
 2) Build the code folder's content and run the executable
+
    OR
+   
    Run C2P-DA.exe
 
 ## Configuration example for Anomaly Detection searches
