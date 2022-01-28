@@ -53,7 +53,7 @@ int main()
 
         #pragma region External preparation
         SetPriorityClass(GetCurrentProcess(), REALTIME_PRIORITY_CLASS); // Setting real-time process priority 
-        std::cout << "GPPDA" << std::endl;
+        std::cout << "C2P-DA" << std::endl;
         Config _config{ std::string{ MY_STRINGIFY(JSON_PATH) } };
         // Putting program to sleep until...
         tm timeout_tm{};
@@ -118,8 +118,8 @@ int main()
                         EXTERNAL_MULTITHREADING,
                         EXTERNAL_MULTITHREADING * _config.difference_between_subwindows,
                         !_config.approximation_enabled && _config.number_of_subwindows == 1 ? _config.min_subwindow : _config.min_subwindow + i * _config.difference_between_subwindows,
-                        !_config.approximation_enabled&& _config.number_of_subwindows == 1 ? _config.max_subwindow : _config.min_subwindow + i * _config.difference_between_subwindows + ((_config.number_of_subwindows + EXTERNAL_MULTITHREADING - 1 - i) / EXTERNAL_MULTITHREADING - 1) * _config.difference_between_subwindows * EXTERNAL_MULTITHREADING,
-                        !_config.approximation_enabled&& _config.number_of_subwindows == 1 ? 1 : (_config.number_of_subwindows + EXTERNAL_MULTITHREADING - 1 - i) / EXTERNAL_MULTITHREADING,
+                        !_config.approximation_enabled && _config.number_of_subwindows == 1 ? _config.max_subwindow : _config.min_subwindow + i * _config.difference_between_subwindows + ((_config.number_of_subwindows + EXTERNAL_MULTITHREADING - 1 - i) / EXTERNAL_MULTITHREADING - 1) * _config.difference_between_subwindows * EXTERNAL_MULTITHREADING,
+                        !_config.approximation_enabled && _config.number_of_subwindows == 1 ? 1 : (_config.number_of_subwindows + EXTERNAL_MULTITHREADING - 1 - i) / EXTERNAL_MULTITHREADING,
                         _config.beta,
                         std::ref(_ask_signal),
                         std::ref(_patterns),

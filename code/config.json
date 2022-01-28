@@ -1,0 +1,40 @@
+{
+  "year": "2020",
+  "month": "01",
+  "day": "01",
+  "hours": "00",
+  "minutes": "00",
+  "seconds": "00",
+
+  "minSubwindow": "60000",
+  "maxSubwindow": "600000",
+
+  "approximationEnabled": true,
+  "partialSearch": true,
+  "dukascopyStockInputData": true,
+
+  "ifApproximationEnabled": {
+    "differenceBetweenSubwindows": "1000",
+    "beta": "128",
+    "startEndDislocationLimit": "1 / 3",
+    "maxPeaksPerPattern": "3",
+    "minPeakWidth": "1000",
+    "pointsDislocationLimit": "1 / 8",
+    "minConf": "2 / 3",
+    "heightAffectsConf": true,
+    "distanceAffectsConf": true,
+    "greedySigmaEnabled": true
+  },
+
+  "ifNotGreedySigmaEnabled": {
+    "knn": "1"
+  },
+
+  "ifPartialSearch": {
+    "storageWindow": "2"
+  },
+
+  "dataPath": "D:/Branch Prediction Based Automatic Trading System/DataTest/Other/",
+  "logsPath": "D:/Branch Prediction Based Automatic Trading System/TestResults/GPPDA/Logs/",
+  "ratesPath": "D:/Branch Prediction Based Automatic Trading System/TestResults/GPPDA/Rates/"
+}
